@@ -1,0 +1,6 @@
+framework module Pods_YukiCompatible_Example {
+  umbrella header "Pods-YukiCompatible_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - YukiCompatible (0.1.0)
+
+DEPENDENCIES:
+  - YukiCompatible (from `../`)
+
+EXTERNAL SOURCES:
+  YukiCompatible:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YukiCompatible: 8f26fce1c84d99d1706679319eb52732dead9f28
+
+PODFILE CHECKSUM: 4f342a99d509801a8aef22ac80b8aee82d29e5f0
+
+COCOAPODS: 1.10.0

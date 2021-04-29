@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		29A3291C6807BBF17E0B96B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3AD32A4AE04A141AE4774522 /* YukiCompatible.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YukiCompatible.podspec; path = ../YukiCompatible.podspec; sourceTree = "<group>"; };
+		29A3291C6807BBF17E0B96B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3AD32A4AE04A141AE4774522 /* YukiCompatible.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YukiCompatible.podspec; path = ../YukiCompatible.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		42ECB8AA3D2BB9F78CB5DEF6 /* Pods-YukiCompatible_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YukiCompatible_Example.debug.xcconfig"; path = "Target Support Files/Pods-YukiCompatible_Example/Pods-YukiCompatible_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		50EEB1E8AC1A04C95757EA5A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		50EEB1E8AC1A04C95757EA5A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		551E4279FD59840726275321 /* Pods-YukiCompatible_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YukiCompatible_Example.release.xcconfig"; path = "Target Support Files/Pods-YukiCompatible_Example/Pods-YukiCompatible_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* YukiCompatible_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YukiCompatible_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				81B0BD21361C47C74338DB0A /* Pods-YukiCompatible_Tests.debug.xcconfig */,
 				DDD388A0FB366160FABC7798 /* Pods-YukiCompatible_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

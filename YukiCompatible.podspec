@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YukiCompatible'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YukiCompatible.'
+  s.summary          = '提供一个Yuki 的域'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Simple/YukiCompatible'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/HFYuki'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Simple' => '792115885@qq.com' }
-  s.source           = { :git => 'https://github.com/Simple/YukiCompatible.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/HFYuki/YukiCompatible.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'YukiCompatible/Classes/**/*'
+  s.ios.deployment_target = '10.0'
   
-  # s.resource_bundles = {
-  #   'YukiCompatible' => ['YukiCompatible/Assets/*.png']
-  # }
+  s.swift_version = ['4.0', '4.2', '5.0', '5.1']
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'YukiCompatible/**/*.swift'
+
 end

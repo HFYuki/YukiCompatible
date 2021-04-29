@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import YukiCompatible
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        view.YK.bgColor()
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,3 +25,8 @@ class ViewController: UIViewController {
 
 }
 
+extension Yuki where Base: UIView {
+    func bgColor(color: UIColor = .purple) {
+        base.backgroundColor = color
+    }
+}
