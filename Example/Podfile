@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'YukiCompatible_Example' do
+  pod 'YukiCompatible', :path => '../'
+
+  target 'YukiCompatible_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
