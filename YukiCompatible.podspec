@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YukiCompatible'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = '提供一个Yuki 的域'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/HFYuki'
+  s.homepage         = 'https://github.com/HFYuki/YukiCompatible'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Simple' => '792115885@qq.com' }
   s.source           = { :git => 'https://github.com/HFYuki/YukiCompatible.git', :tag => s.version.to_s }
